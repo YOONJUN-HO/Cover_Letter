@@ -1,0 +1,61 @@
+/* CSS ��Ÿ���� ���⿡ �߰��ϼ��� */* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+h1, h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+a {
+    color: black; /* 글자 색깔을 검은색으로 설정 */
+    text-decoration: none; /* 밑줄을 없앰 */
+}
+a:visited {
+    color: black; /* 방문한 후에도 링크 색상 유지 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+a:hover {
+    color: black; /* 마우스를 올렸을 때도 검은색 유지 */
+    text-decoration: none; /* 마우스를 올렸을 때도 밑줄 없음 */
+}

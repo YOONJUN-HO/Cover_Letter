@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 배열 예시</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .top-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .top-images img {
+            width: 560px;
+            height: 400px;
+        }
+
+        .bottom-images {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+
+        .bottom-images img {
+            width: 200px;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .bottom-images {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>산학협력단 주관 창업 교육 1박 2일 캠프<h1>
+    <div class="top-images">
+        <img src="산학협력단캠프/창업캠프1.jpg" alt="Top Image 1">
+        <img src="산학협력단캠프/창업캠프2.jpg" alt="Top Image 2">
+    </div>
+
+    <div class="bottom-images">
+        <img src="산학협력단캠프/noname.jpg" alt="Image 3">
+        <img src="산학협력단캠프/noname(1).jpg" alt="Image 4">
+        <img src="산학협력단캠프/noname(2).jpg" alt="Image 5">
+        <img src="산학협력단캠프/noname(3).jpg" alt="Image 5">
+        <img src="산학협력단캠프/noname(4).jpg" alt="Image 5">
+        <img src="산학협력단캠프/noname(5).jpg" alt="Image 5">
+        <img src="산학협력단캠프/noname(6).jpg" alt="Image 5">
+        <img src="산학협력단캠프/noname(7).jpg" alt="Image 5">
+        <img src="산학협력단캠프/noname(8).jpg" alt="Image 5">
+        <img src="산학협력단캠프/noname(9).jpg" alt="Image 5">
+    </div>
+</body>
+</html>
